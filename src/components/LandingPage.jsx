@@ -331,7 +331,7 @@ const LandingPage = () => {
         const timer = setTimeout(() => {
             setShowPopup(true);
             setHasBeenShown(true);
-        }, 3000); // 3 seconds delay
+        }, 1000); // 1 second delay
 
         return () => clearTimeout(timer);
     }, []);
@@ -409,7 +409,7 @@ const LandingPage = () => {
                         style={{ marginBottom: '4rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem' }}
                     >
                         <div>
-                            <h2 style={{ fontSize: '2.5rem', marginBottom: '0.5rem', letterSpacing: '2px' }}>POPÜLER FORUMLAR</h2>
+                            <h2 style={{ fontSize: '2.5rem', marginBottom: '0.5rem', letterSpacing: '2px' }}>İnönü E-Spor Takım Başvuru Forumları</h2>
                             <div style={{ height: '4px', width: '80px', background: 'linear-gradient(90deg, #8b00ff, #00f3ff)', borderRadius: '2px' }} />
                         </div>
                         <a href="#" style={{ color: '#b3b3b3', fontSize: '0.95rem', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '8px' }} className="glow-hover">TÜMÜNE GÖZ AT →</a>
@@ -425,7 +425,7 @@ const LandingPage = () => {
 
             {/* Footer */}
             <footer style={{ padding: '4rem 2rem', textAlign: 'center', color: 'rgba(255,255,255,0.25)', borderTop: '1px solid rgba(255,255,255,0.05)', background: '#030007' }}>
-                <p style={{ fontSize: '0.95rem', letterSpacing: '1px' }}>© 2024 İnönü E-Spor Topluluğu. <br /> <span style={{ color: 'rgba(255,255,255,0.15)', fontSize: '0.8rem' }}>Design by AntiGravity</span></p>
+                <p style={{ fontSize: '0.95rem', letterSpacing: '1px' }}>© İnönü E-Spor. <br /> <span style={{ color: 'rgba(255,255,255,0.15)', fontSize: '0.8rem' }}>Design by TK</span></p>
             </footer>
         </div>
     );
